@@ -1,0 +1,27 @@
+{
+  "name": "nodeapp",
+  "version": "0.0.1",
+  "description": "Node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saibabanadh/nodeapp.git"
+  },
+  "keywords": [
+    "Heroku",
+    "node"
+  ],
+  "author": "saibabanadh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saibabanadh/nodeapp/issues"
+  },
+  "homepage": "https://github.com/saibabanadh/nodeapp",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  }
+}
