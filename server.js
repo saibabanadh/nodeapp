@@ -32,6 +32,7 @@ app.get('/', function(req,res){
 app.post('/auth/validEmail', function(req,res){
 
 	var email = sanitizer.sanitize(req.body.email);
+	sanitizer.escape(email);
 	res.send(email);
 });
 
